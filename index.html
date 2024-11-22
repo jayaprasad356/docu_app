@@ -50,7 +50,8 @@
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
    
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+     
    
 
     
@@ -167,7 +168,13 @@
 
     <!-- Google tag (gtag.js) --> <amp-analytics type="gtag" data-credentials="include"> <script type="application/json"> { "vars": { "gtag_id": "AW-11273989115", "config": { "AW-11273989115": { "groups": "default" } } }, "triggers": { } } </script> </amp-analytics>
 
+     <!-- mobile menu info -->
+        <div id="call" target="_blank" class="phone"><a href="tel:+919071001484"><img src="./image/phone-call (1).png" width="55px" height="auto"  alt="social"></a></div>
+    <!-- mobile menu info -->
 
+    <!-- whatsapp -->
+        <div id="whats" class="whatsapp"><a href="https://api.whatsapp.com/send?phone=+91 9538101799&text=New Legal Enquiry" target="_blank"><img src="./image/social.png"  width="60px" height="auto" alt="social"></a></div>
+    <!-- whatsapp -->
 
 
 
@@ -222,10 +229,12 @@
                          <li><a href="index.html">CONSULTATION </a>
                             
                         </li>
+                        <br>
+                         <a href="index.php#memberform" class="trigger-btn batton"  style="background-color: #d5aa6d;float:right" > Login</a>
                         
                          
                    </ul>
-                   <a href="index.php#memberform" class="trigger-btn batton"  style="background-color: #d5aa6d;float:right" > Login</a>
+                  
                    
                 </div>
                 
@@ -234,72 +243,37 @@
         
     </header><!-- START REVOLUTION SLIDER 5.0 -->
 
-     <div class="rev_slider_wrapper">
-        <div id="slider1" class="rev_slider"  data-version="5.0">
-            
-                    <li data-index="rs-5" data-transition="parallaxtoright" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default" data-delay="6510"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="./image/image1.jpg"  alt=""  width="100%" height="600" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                        <!-- LAYERS -->
-
-                        
-
-
-                        
-
-                        
-
-                        <!--  -->
-
-                    </li> 
-                    <!-- <div class="headerone">Your Legal Solution Starts Here !</div> -->
-                <form  role="form"  id="signup_frm" method="post" class="bg-theme-colored-transparent-8 p-30 ">
-                    <h3 class="mt-0 mb-20 text-center brown1 formtitle" id="CONTACT">Online  Consumer Complaint</h3>
-                  <span id="sucessalert" style="color:#fff"></span>
-               <span id="sucessalert" style="color:#fff"></span>
-               <span id="erroralert" style="color:#fff;"></span>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="form-group ">
-                        <input name="name" id="name" class="form-control"  type="text" placeholder="Name*" >
-                      </div>
-                    </div>
-                    <div class="col-sm-12">
-                      <div class="form-group ">
-                        <input name="email" id="email" class="form-control"  type="email" placeholder="Email*" >
-                        
-                      </div>
-                    </div>
-                   <div class="col-sm-12">
-                      <div class="form-group ">
-                        <input name="phone" id="phone" class="form-control" type="text" placeholder="Phone*" >
-                      </div>
-                    </div>
-                    <div class="col-sm-12">
-                      <div class="form-group ">
-                        <input name="city" id="city" class="form-control" type="text" placeholder="City*" >
-                      </div>
-                    </div>
-                    <div class="col-sm-12">
-                      <div class="form-group mb-10">
-                        <input name="compliant_title"  id="compliant_title" class="form-control" type="text" placeholder="Complaint Title*" >
-                      </div>
-                    </div>
-                  </div>
-                  <div class="group-img">
-                 <textarea name="compliant_description" maxlength="500" cols="3" rows="6" id="compliant_description" required  class="form-control textarea1"> Compliant Description </textarea>
-
+   
+    <div id="slider1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="./image/image1.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="Slide Image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="your">Your Legal Solution Starts Here!</h5>
                 </div>
-                  <div class="form-group mb-0 mt-20 text-center">
-                    <br>
-                    <button type="submit" class="btn btn-dark btn-theme-colored2 frmbtn">Submit</button>
-                  </div>
-                </form>
-                
-                         
-        </div><!-- END REVOLUTION SLIDER -->
-    </div><!-- END OF SLIDER WRAPPER -->
+            </div>
+            <!-- Add more slides if needed -->
+              <div class="carousel-item active">
+                <img src="./image/image1.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="Slide Image">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="your">Your Legal Solution Starts Here!</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
+    <!-- Form Section -->
+   
           <!-- =========================
      START WELCOME SECTION
     ============================== -->
@@ -958,7 +932,7 @@
                                 </ul>
                             </div>
                             <div class="pricing-btn ">
-                                <a href="#" class="mt-3">Subscribe</a>
+                                <a href="#" >Subscribe</a>
                             </div>
                         </div>
                     </div>
@@ -982,8 +956,9 @@
                                     
                                 </ul>
                             </div>
+                            <!-- <br> -->
                             <div class="pricing-btn">
-                                <a href="#" class="mt-1">Subscribe</a>
+                                <a href="#" class="m-5">Subscribe</a>
                             </div>
                         </div>
                     </div>
@@ -992,6 +967,12 @@
             </div>
         </div>
     </section>
+ 
+
+
+
+
+
 
 
 
@@ -1127,6 +1108,111 @@
             </div>
         </div>            
     </section><!-- end testimonial area -->
+
+
+     <section class="testimonial-area testimonial-details-area bgpatten pt-1">
+        <div class="welcome-title-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 ">
+                        <div class="Title-area">
+                            <h3>What Our Customers Are Saying</h3>
+                            <h2 >Clients  <span>Testimonials</span></h2>
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div> <!-- end title. it will use all pages title --> 
+
+        <div class="testimonial-content-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 no-padding">
+                        <div id="testimonial-details-demo" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="owl-testimonial-content owl-testimonial-details">
+                                    <i class="fa fa-quote-left"></i>
+                                    <h2> <span><img src="./image/boy.jpg"  width="100" height="100" alt="user"></span></h2>
+                                    <p>Just an amazing and super-fast legal consultation. I was able to talk to a lawyer at the middle of the night. I really liked the way he has giving me solution.</p>                                    
+                                <div class="testimonial-quote t-details-quote">
+                                    <span>Arjun</span>
+                                   
+                                </div>
+                                </div>
+                                
+                            </div>
+                            <div class="item">
+                                <div class="owl-testimonial-content owl-testimonial-details">
+                                    <i class="fa fa-quote-left"></i>
+                                    <h2> <span><img src="./image/girl.jpg"  width="100" height="100" alt="user"></span></h2>
+                                    
+                                    <p>Advocate on just consult was quite expert and knowledgeable in divorce matter she explained to everything so well & help me to understand legalities & consequences</p>                                    
+                                 <div class="testimonial-quote t-details-quote">
+                                    <span>Priya</span>
+                                   
+                                </div></div>
+                               
+                            </div>
+                            <div class="item">
+                                <div class="owl-testimonial-content owl-testimonial-details">
+                                    <i class="fa fa-quote-left"></i>
+                                    <h2> <span><img src="./image/boy.jpg"  width="100" height="100" alt="user"></span></h2>
+                                    <p>Very good and satisfied Quick responce ... Very nice thanks all India legal scrvice</p>                                    
+                                 <div class="testimonial-quote t-details-quote">
+                                    <span>Aravind Das</span>
+                                   
+                                </div></div>
+                               
+                            </div>
+                            <div class="item">
+                                <div class="owl-testimonial-content owl-testimonial-details">
+                                    <i class="fa fa-quote-left"></i>
+                                    <h2> <span><img src="./image/girl.jpg"  width="100" height="100" alt="user"></span></h2>
+                                    <p>I registered a complaint for loss of money with an hour I got response,my case manager hariharan sir helped me throughout to get money back.Every hour gets updates of case</p>                                    
+                                <div class="testimonial-quote t-details-quote">
+                                    <span>Emma K Paul</span>
+                                   
+                                </div></div>
+                                
+                            </div>
+                            <div class="item">
+                                <div class="owl-testimonial-content owl-testimonial-details">
+                                    <i class="fa fa-quote-left"></i>
+                                    <h2> <span><img src="./image/boy.jpg"  width="100" height="100" alt="user"></span></h2>
+                                    <p>Highly recommended because I had lost my money 2 months back 15 days back I had registered on all india legal service.I had received my lost amount as well my fees also</p>                                    
+                                 <div class="testimonial-quote t-details-quote">
+                                    <span>Arpan Choudhary</span>
+                                   
+                                </div></div>
+                               
+                            </div>
+                            <div class="item">
+                                <div class="owl-testimonial-content owl-testimonial-details">
+                                    <i class="fa fa-quote-left"></i>
+                                    <h2> <span><img src="./image/girl.jpg" width="100" height="100" alt="user"></span></h2>
+                                    <p>I had registered the complaint last month against amazon two days back I had received my full amount with compensation and also the fee which I paid to all India legal service.</p>                                    
+                                <div class="testimonial-quote t-details-quote">
+                                    <span>Soniya</span>
+                                   
+                                </div></div>
+                                
+                            </div>
+                                                   
+                        </div>
+                        <div class="testimonial-customNavigation t-detalis-customNavigation">
+                          <a class="btn prev"><i class="fa fa-long-arrow-left"></i></a>
+                          <a class="btn next"><i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </section><!-- end testimonial area -->
+
 
     
 
@@ -1296,7 +1382,7 @@
                     <div class="col-sm-6 col-md-12 text-center pb-3">
                         <div class="f-first-content f-all-h2">
                             
-                            <a href="#"><img src="./image/logo2.jpg" alt="f-image" width="50" ></a>
+                            <a href="#"><img src="./image/logo2.jpg" alt="f-image" width="100" ></a>
                             <p>We at the legal forum provide expert guidance for individuals and organizations for their complaints, our firm provides 24/7 services and make us a prestigious choice.</p>
                             <p><a href="#memberform">Click To Login Now <i class="fa fa-long-arrow-right"></i></a></p>
                         </div>
@@ -1342,11 +1428,11 @@
                <div class="footer-bottom clearfix ">
                     <div class="col-md-8 col-sm-6 no-padding-left">
                         <div class="f-bottom-left-text">
-                            <p class="text-white fcopyr1 mt-2">Copyright © 2023 - 2024 All India Legal Service | All Rights Reserved.  </p>
+                            <!-- <p class="text-white fcopyr1 mt-2">Copyright © 2023 - 2024 All India Legal Service | All Rights Reserved.  </p> -->
                         </div>
                     </div>
                      <div class="col-md-4 col-sm-4 f3links">
-                         <h6 ><a href="privacy-policy.php" class="text-white">Privacy Policy</a></h6>
+                         <h6 ><a href="privacy-policy.php" class="text-white ">Privacy Policy</a></h6>
                           <h6 ><a href="refund-policy.php" class="text-white">Refund Policy</a></h6>
                           <h6 ><a href="terms-conditions.php" class="text-white">Terms & Conditions</a></h6>
                      </div>
@@ -1355,7 +1441,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
     <!-- Include owl-carousel js plugin -->
     <script src="js/owl.carousel.js"></script>
     <script src="js/menuzord.js"></script>
@@ -1371,6 +1457,7 @@
     <script src="js/main.js"></script> 
     <script  src="js/user.js"></script> 
     <script  src="js/jquery-validate.js"></script> 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 <!-- Developed By sanishsoft -->
 
